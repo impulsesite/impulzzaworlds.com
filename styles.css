@@ -1,0 +1,185 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-left: 20%;
+    letter-spacing: 5px;
+    font-weight: 600;
+    word-spacing: 5px;
+    background: linear-gradient(90deg, #ff0000,rgba(0, 4, 255, 0.918),#ffff00, #ff00f3, #0033 );
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: 5s linear 0s infinite running animate;
+
+}
+@keyframes animate{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position: 200%;
+    }
+}
+
+body{
+    background:rgba(0, 0, 0, 0.507) url("/pizza\ 3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+
+#p1{
+    color: white;
+    font-size: 25px;
+    animation: 10s linear 0s infinite running myslide
+}
+@keyframes myslide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+#p2{
+    text-align: center;
+    color: white;
+    font-size:40px ;
+}
+#p3{
+    text-align: center;
+    color: white;
+    font-size:40px ;
+}
+
+#p4{
+    color: white;
+    text-align: center;
+    font-size:25px;
+}
+
+#p5{
+    color: white;
+    text-align: center;
+    font-size:25px;
+}
+#p6{
+color: white;
+font-size: 30px;
+text-decoration:underline;
+
+}
+
+li:nth-child(even){
+    font-size: 25px;
+    color: white;
+}
+li:nth-child(odd){
+ color: white;
+ font-size: 25px;
+}
+#p7{
+    color: white;
+    font-size: 30px;
+text-decoration:underline;
+
+
+}
+#alabel{
+    color: white;
+    font-size: 20px;
+}
+#blabel{
+    color: white;
+    font-size: 20px;
+}
+#clabel{
+    color: white;
+    font-size: 20px;
+}
+#p8{
+    color: white;
+    margin:0px;
+    border: 0px solid;
+border-radius:10px ;
+padding:10px;
+font-size: 15px;
+background:black;
+
+}
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#visa{
+    margin-left: 30%;
+    font-size: 25px;
+    color: white;
+}
+#master{
+    font-size: 25px;
+    color: white;
+}
+#pay{
+    font-size: 25px;
+    color: white;
+}
+#elabel{
+    background-color: black;
+    margin-left: 35%;
+    text-decoration: underline;
+    color:white;
+    font-size: 25px;
+}
+#dlabel{
+    background-color: black;
+    margin-left: 35%;
+    color:white;
+    font-size: 15px;
+}
+#flabel{
+    background-color: black;
+    margin-left: 35%;
+    color:white;
+    font-size: 15px;
+}
+#glabel{
+    background-color: black;
+    margin-left: 35%;
+    color:white;
+    font-size: 15px;
+}
+#hlabel{
+    background-color: black;
+    margin-left: 35%;
+    color:white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
