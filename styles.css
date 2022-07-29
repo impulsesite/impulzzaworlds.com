@@ -9,6 +9,7 @@ h1{
     background-size: 400%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: css;
     animation: 5s linear 0s infinite running animate;
 
 }
